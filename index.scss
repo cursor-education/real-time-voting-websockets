@@ -1,0 +1,39 @@
+body { background: white; }
+.center { text-align: center; }
+
+#chart {
+  $size: 300px;
+  min-width: $size;
+  height: $size;
+}
+
+.button {
+  background: #eee;
+  padding: 10px 20px;
+  font: 14px Verdana;
+  cursor: pointer;
+  border-radius: 2px;
+  
+  transition: all 0.2s linear;
+  
+  user-select: none;
+  -webkit-user-select: none;
+  
+  &.selected {
+    color: #FFF;
+    &.yes {
+      background: #0FB90F;
+    }
+    &.no {
+      background: #EB3232;
+    }
+    &.maybe {
+      background: #B9B9B9;      
+    }
+  }
+
+  &:hover {
+    background: #555;
+    color: #fff;
+  }
+}
