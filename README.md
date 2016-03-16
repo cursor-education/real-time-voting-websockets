@@ -1,5 +1,5 @@
 The technical details will be soon.
 
-http://jsfiddle.net/ysthepkw/5/embedded/
+http://jsfiddle.net/ysthepkw/20/embedded/
 
-![](http://i.imgur.com/SQCZ0Bq.png)
+![](https://raw.githubusercontent.com/cursor-education/real-time-voting-websockets/master/cursor-realtime-voting.png)
